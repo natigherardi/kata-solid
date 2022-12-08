@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1670513517474" clover="3.2.0">
+  <project timestamp="1670513517474" name="All files">
+    <metrics statements="42" coveredstatements="14" conditionals="8" coveredconditionals="1" methods="12" coveredmethods="3" elements="62" coveredelements="18" complexity="0" loc="42" ncloc="42" packages="1" files="2" classes="2"/>
+    <file name="telemetry-client.ts" path="C:\Users\natal\OneDrive\Escritorio\Curso N1.5\Kata-SOLID\src\telemetry-client.ts">
+      <metrics statements="25" coveredstatements="1" conditionals="5" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="19" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="34" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="38" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="40" count="0" type="stmt"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="65" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="67" count="0" type="stmt"/>
+      <line num="68" count="0" type="stmt"/>
+      <line num="69" count="0" type="stmt"/>
+      <line num="70" count="0" type="stmt"/>
+      <line num="73" count="0" type="stmt"/>
+      <line num="74" count="0" type="stmt"/>
+      <line num="77" count="0" type="stmt"/>
+      <line num="82" count="0" type="stmt"/>
+      <line num="83" count="0" type="stmt"/>
+    </file>
+    <file name="telemetry-diagnostic-controls.ts" path="C:\Users\natal\OneDrive\Escritorio\Curso N1.5\Kata-SOLID\src\telemetry-diagnostic-controls.ts">
+      <metrics statements="17" coveredstatements="13" conditionals="3" coveredconditionals="1" methods="4" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="34" count="1" type="cond" truecount="0" falsecount="1"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
