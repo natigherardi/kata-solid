@@ -2,7 +2,5 @@
 export default {
   preset: "ts-jest",
   testEnvironment: "node",
-  //testMatch: ["src/**/*.test.ts"],
-  // // testPathIgnorePatterns: [],
-  // modulePathIgnorePatterns: ["dist"],
+  modulePathIgnorePatterns: ["dist"],
 };
