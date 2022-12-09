@@ -1,14 +1,15 @@
+import TelemetryClientI from "./models/TelemetryClient";
 import TelemetryClient from "./telemetry-client";
 
 export default class TelemetryDiagnosticControls {
   private diagnosticChannelConnectionString: string;
 
-  private telemetryClient: TelemetryClient;
+  private telemetryClient: TelemetryClientI;
   private diagnosticInfo: string;
 
-  constructor() {
+  constructor(telemetryClient: TelemetryClientI) {
     this.diagnosticChannelConnectionString = "*111#";
-    this.telemetryClient = new TelemetryClient();
+    this.telemetryClient = telemetryClient;
     this.diagnosticInfo = "";
   }
 
