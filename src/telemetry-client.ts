@@ -1,4 +1,6 @@
-export default class TelemetryClient {
+import TelemetryClientI from "./models/TelemetryClient";
+
+export default class TelemetryClient implements TelemetryClientI {
   private onlineStatus: boolean;
   private diagnosticMessageResult: string;
 

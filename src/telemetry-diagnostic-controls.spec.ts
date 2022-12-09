@@ -22,7 +22,7 @@ describe("Given the Telemetry System", () => {
 
     it("Then if the connection is successfull, the diagnostic information should be received", () => {
       const telemetry = new TelemetryDiagnosticControls();
-      mockOnlineStatus.mockImplementationOnce(() => true);
+      mockOnlineStatus.mockReturnValueOnce(true);
 
       telemetry.checkTransmission();
 
