@@ -26,7 +26,9 @@ describe("Given the Telemetry System", () => {
         it.only("Then if the connection fails more than 3 times, an error should be thrown", () => {
             const telemetry = new TelemetryDiagnosticControls(mockTelemetryClient);
             mockTelemetryClient.getOnlineStatus.mockReturnValue(false);
-            expect(telemetry.checkTransmission()).toThrowError("Unable to connect");
+            expect(() => {
+                telemetry.checkTransmission();
+            }).toThrowError("Unable to connect");
         });
     });
 });

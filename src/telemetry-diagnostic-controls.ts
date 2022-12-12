@@ -1,5 +1,4 @@
 import TelemetryClientI from "./models/TelemetryClient";
-import TelemetryClient from "./telemetry-client";
 
 export default class TelemetryDiagnosticControls {
   private diagnosticChannelConnectionString: string;

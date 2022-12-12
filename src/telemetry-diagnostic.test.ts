@@ -1,5 +1,3 @@
-import TelemetryClientI from "./models/TelemetryClient";
-import TelemetryClient from "./telemetry-client";
 import TelemetryDiagnosticControls from "./telemetry-diagnostic-controls";
 
 describe("Given the Telemetry System", () => {
@@ -36,7 +34,9 @@ describe("Given the Telemetry System", () => {
       const telemetry = new TelemetryDiagnosticControls(mockTelemetryClient);
       mockTelemetryClient.getOnlineStatus.mockReturnValue(false);
 
-      expect(telemetry.checkTransmission()).toThrowError("Unable to connect");
+      expect(() => {
+        telemetry.checkTransmission();
+      }).toThrowError("Unable to connect");
     });
   });
 });
