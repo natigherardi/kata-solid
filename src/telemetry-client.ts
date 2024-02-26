@@ -1,7 +1,7 @@
 export default class TelemetryClient {
   private onlineStatus: boolean;
   private diagnosticMessageResult: string;
-
+debugger
   constructor() {
     this.onlineStatus = false;
     this.diagnosticMessageResult = "";
