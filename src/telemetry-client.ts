@@ -4,7 +4,7 @@ export default class TelemetryClient {
 debugger
   constructor() {
     this.onlineStatus = false;
-    this.diagnosticMessageResult = "";
+    this.diagnosticMessageResult = "No results";
   }
 
   public diagnosticMessage() {
